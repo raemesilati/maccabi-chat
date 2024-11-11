@@ -1,0 +1,64 @@
+@import "/src/index.scss";
+
+.user {
+  width: 100%;
+  padding: $spacing-sm $spacing-md;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+
+  &.bold {
+    font-weight: $font-weight-bold;
+  }
+
+  &:hover {
+    background: var(--light-primary);
+  }
+
+  img {
+    max-width: 0;
+    transition: all 0.5s;
+    transform: rotate(180deg);
+    &.current {
+      max-width: 10px;
+    }
+  }
+
+  .unreadIndicator {
+    margin: auto;
+    margin-inline-end: 0;
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+
+    &Dot {
+      width: 0.5rem;
+      height: 0.5rem;
+      background-color: var(--semi-primary);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    &Count {
+      margin-left: 0.5rem;
+      font-size: 0.875rem;
+      color: var(--black);
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+}

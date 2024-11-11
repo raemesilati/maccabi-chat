@@ -1,0 +1,14 @@
+.chatBackground {
+    background: url(../../assets/images/blob-1.svg) no-repeat bottom, url(../../assets/images/blob-2.svg) no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        inset-inline-start: 20px;
+    }
+}

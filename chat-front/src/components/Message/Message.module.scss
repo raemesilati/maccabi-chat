@@ -1,0 +1,38 @@
+@import "/src/index.scss";
+
+.message {
+  display: flex;
+  justify-content: end;
+  padding: $spacing-xs;
+
+  p {
+    background: var(--primary);
+    color: var(--white);
+    border-radius: $border-radius-20;
+    border-start-end-radius: 0;
+    max-width: 50%;
+    padding: $spacing-md;
+    overflow-wrap: break-word;
+  }
+
+  .date {
+    font-size: $font-size-sm;
+  }
+
+  .messageInfo {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+  }
+
+  &.current {
+    justify-content: start;
+
+    p {
+      border-start-end-radius: 20px;
+      border-end-start-radius: 0;
+      background: var(--light-primary);
+      color: var(--text);
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "/src/index.scss";
+
+.textInput {
+    display: flex;
+    flex-direction: column;
+    color: var(--text);
+
+    .label {
+        font-size: $font-size-sm;
+        margin-bottom: $spacing-sm;
+        color: var(--text);
+
+        .required {
+            color: var(--secondary);
+        }
+    }
+    input {
+        padding: $spacing-sm;
+        font-size: $font-size-base;
+        border: 1px solid var(--border-color);
+        border-radius: $border-radius-4;
+    }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="10" viewBox="0 0 19 10"><script xmlns="http://www.w3.org/1999/xhtml" src="chrome-extension://fgddmllnllkalaagkghckoinaemmogpe/scripts/content/gps.js"></script>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#fff" fill-rule="nonzero">
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <path d="M18.793 4.522L14.267.198c-.276-.264-.724-.264-1 0s-.276.692 0 .955l3.319 3.171H.707C.317 4.324 0 4.627 0 5c0 .373.317.676.707.676h15.879l-3.319 3.17c-.276.264-.276.692 0 .956.138.132.319.198.5.198s.362-.066.5-.198l4.526-4.324c.276-.264.276-.692 0-.956z" transform="translate(-802.000000, -1825.000000) translate(240.000000, 1379.000000) translate(368.000000, 0.000000) translate(169.000000, 436.000000) translate(25.000000, 10.000000) translate(9.500000, 5.000000) scale(-1, 1) translate(-9.500000, -5.000000)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

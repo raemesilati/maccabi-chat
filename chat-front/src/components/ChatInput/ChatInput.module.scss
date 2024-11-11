@@ -1,0 +1,45 @@
+@import "/src/index.scss";
+
+.chatInput {
+    flex: 0 30px;
+    width: 100%;
+    background: var(--white);
+    padding: $spacing-md;
+    box-sizing: border-box;
+    border-radius: 0 0 0 $border-radius-20;
+
+    form {
+        display: flex;
+        gap: $spacing-sm;
+
+        input {
+            flex: 0 calc(100% - 60px);
+            padding: $spacing-sm;
+            border: 1px solid var(--border-color);
+            border-radius: $border-radius-4;
+            font-size: $font-size-base;
+        }
+
+        button {
+            background: var(--primary);
+            border-radius: $border-radius-25;
+            padding: $spacing-sm;
+            display: flex;
+            align-items: center;
+
+            img {
+                transform: rotate(180deg);
+            }
+
+            &:hover {
+                background: var(--semi-primary);
+            }
+        }
+    }
+}
+
+@include responsive("lg") {
+    .chatInput {
+        border-radius: 0 0 $border-radius-20 $border-radius-20;
+    }
+}

@@ -1,0 +1,31 @@
+@import "/src/index.scss";
+
+.chatContainer {
+  flex: 0 60%;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  .back {
+    display: none;
+  }
+}
+
+@include responsive("lg") {
+  .chatContainer {
+    flex: 0 100%;
+    max-width: 100%;
+    .back {
+      color: var(--primary);
+      font-size: $font-size-base;
+      text-decoration: underline;
+      position: absolute;
+      top: -40px;
+      display: block;
+      inset-inline-start: 20px;
+      img {
+        max-width: 10px;
+      }
+    }
+  }
+}

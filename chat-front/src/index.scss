@@ -1,0 +1,31 @@
+@import "./styles/fonts.scss";
+@import "./styles/mixins.scss";
+@import "./styles/spacing.scss";
+@import "./styles/typography.scss";
+@import "./styles/breakpoints.scss";
+@import "./styles/resets.scss";
+
+:root {
+  //colors
+  --primary: #0d47a1;
+  --semi-primary: #1e7dcf;
+  --light-primary: #e3effd;
+  --secondary: #d625a1;
+  --light-secondary: #ffd0f1;
+
+  //text
+  --text: #1e2f41;
+
+  //gradient
+  --color-1: #c4ecff;
+  --color-2: #f8c7ff;
+
+  //border
+  --border-color: #dbdbdb;
+
+  //basic
+  --white: #fff;
+  --white-op: rgba(255, 255, 255, 0.75);
+  --black: #000;
+  --semi-black: #222222;
+}

@@ -1,0 +1,9 @@
+@import "/src/index.scss";
+
+.status {
+  font-size: $font-size-sm;
+
+  &.read {
+    color: green;
+  }
+}

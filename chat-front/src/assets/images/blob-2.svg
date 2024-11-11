@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="221" height="407" viewBox="0 0 221 407"><script xmlns="http://www.w3.org/1999/xhtml" src="chrome-extension://fgddmllnllkalaagkghckoinaemmogpe/scripts/content/gps.js"></script>
+    <defs>
+        <linearGradient id="jmf4fsbaja" x1="50%" x2="50%" y1="0%" y2="360.299%">
+            <stop offset="0%" stop-color="#D625A1"/>
+            <stop offset="100%" stop-color="#A321AA"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path fill="#E4EFFD" d="M50 0c91.128 0 165 73.873 165 165S141.129 330 50 330H40c-13.794 0-27.193-1.693-40-4.882V4.882C12.806 1.692 26.205 0 40 0z" transform="translate(0.000000, -5299.000000) translate(-0.000544, 5299.000000)"/>
+                <path fill="url(#jmf4fsbaja)" d="M.001 253.526c40.54 2.217 72.73 35.791 72.73 76.884 0 39.835-30.25 72.604-69.03 76.592L0 407z" opacity=".14" transform="translate(0.000000, -5299.000000) translate(-0.000544, 5299.000000)"/>
+            </g>
+        </g>
+    </g>
+</svg>

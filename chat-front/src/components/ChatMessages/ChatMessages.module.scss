@@ -1,0 +1,9 @@
+@import "/src/index.scss";
+
+.chatMessages {
+  flex: 0 calc(100% - 30px);
+  max-height: calc(100% - 30px);
+  overflow: auto;
+  padding-inline: $spacing-md;
+  padding-top: $spacing-md;
+}
